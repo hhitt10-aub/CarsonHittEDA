@@ -12,7 +12,7 @@ st.write("""
 """)
 
 #get data frame
-games = read_games()
+games = pd.read_pickle("export/games_cleaned_added_features.pkl")
 
 #create dropdown boxes
 x_col = st.selectbox("Select Desired X Axis", options=["Years", "Operating System", "Languages", "Developers Are Publishers"])
