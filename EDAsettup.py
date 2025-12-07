@@ -10,14 +10,17 @@ def read_games(dataset: str = "games") -> pd.DataFrame:
 
     return games
 
-def make_games_bar(df: pd.DataFrame, x_col: str, y_col: str):
-    import seaborn as sns
-
-    gamesBar = sns.barplot(data=df, x=x_col, y=y_col) #makes the plot and sets the x and y axis
+def year_bar(df,x_col: str, y_col: str):
+    import seaborn as sns    
+    gamesBar = sns.barplot(data=df, x= x_col, y=y_col) #makes the plot and sets the x and y axis
     gamesBar.bar_label(gamesBar.containers[0], fontsize=10) #add the numbers at the top of each bar
-    gamesBar.set(title="Each Category's Total Profit") #adds the title
-    gamesBar.grid() #adds the grid to make it easier to read
+    gamesBar.set(title=f"Each Year's Total Profit") #adds the title  #adds the grid to make it easier to read
     return gamesBar
 
 
+games = read_games()
 
+
+years = games["release_year"].unique().sort_values()
+temp = games["release_year"].count()
+print(temp)
