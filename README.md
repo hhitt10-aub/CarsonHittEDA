@@ -1,6 +1,6 @@
-### Steam Games EDA
+# Steam Games EDA
 
-##Data
+## Data
 
 The data is scrapped data from Steam's API sourced from Keggle and uses the 2024 dataset that has dupiclates and playtest versions of games removed.
 
