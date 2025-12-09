@@ -21,3 +21,6 @@ Source: https://www.kaggle.com/datasets/artermiloff/steam-games-dataset
 4. datasets Folder: Contains the zip files for the original data
 5. exports Folder: Contains the exported CSV and pickle files of the altered data
 6. profiles Folder: Contains the environment yaml file and the ruff toml file
+
+
+Dislaimer: Generative AI (ChatGPT) was used in a limited capacity to troubleshoot errors throughout this project.
