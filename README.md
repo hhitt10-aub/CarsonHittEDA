@@ -2,7 +2,7 @@
 
 ##Data
 
-The data is scrapped data from Steam's API sourced from Keggle and uses the 2024 dataset that does has dupiclates and playtest versions of games removed.
+The data is scrapped data from Steam's API sourced from Keggle and uses the 2024 dataset that has dupiclates and playtest versions of games removed.
 
 Source: https://www.kaggle.com/datasets/artermiloff/steam-games-dataset
 
