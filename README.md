@@ -15,7 +15,7 @@ Source: https://www.kaggle.com/datasets/artermiloff/steam-games-dataset
 
 ## Files and Folders
 
-1. SteamGamesEDA: Most of our analysis is performed in this file
+1. SteamGamesEDA.ipynb: Most of our analysis is performed in this file
 2. GamesEDAstreamlit.py: Code used to create the streamlit
 3. EDAsettup.py: Legacy code that was used for the streamlit
 4. datasets Folder: Contains the zip files for the original data
